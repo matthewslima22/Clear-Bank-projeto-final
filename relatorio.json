@@ -1,0 +1,178 @@
+{
+  "gerado_em": "2026-10-17",
+  "total_transacoes_lidas": 27,
+  "total_transacoes_validas": 17,
+  "total_transacoes_invalidas": 10,
+  "limite_suspeito": 10000.00,
+  "periodo_analisado": {
+    "inicio": "2026-01-05",
+    "fim": "2026-03-30",
+    "intervalo_dias": 84
+  },
+  "resumo_mensal": {
+    "2026-01": {
+      "quantidade": 5,
+      "total_credito": 18500.00,
+      "total_debito": 1016.40,
+      "saldo": 17483.60,
+      "media_por_transacao": 3903.28,
+      "maior_transacao": {
+        "id": 3,
+        "cliente_id": "C003",
+        "data": "2026-01-12",
+        "tipo": "credito",
+        "valor": 15000.00
+      },
+      "menor_transacao": {
+        "id": 5,
+        "cliente_id": "C004",
+        "data": "2026-01-28",
+        "tipo": "debito",
+        "valor": 45.90
+      }
+    },
+    "2026-02": {
+      "quantidade": 5,
+      "total_credito": 16700.50,
+      "total_debito": 10330.74,
+      "saldo": 6369.76,
+      "media_por_transacao": 5406.25,
+      "maior_transacao": {
+        "id": 9,
+        "cliente_id": "C006",
+        "data": "2026-02-18",
+        "tipo": "credito",
+        "valor": 12500.50
+      },
+      "menor_transacao": {
+        "id": 10,
+        "cliente_id": "C004",
+        "data": "2026-02-25",
+        "tipo": "debito",
+        "valor": 99.99
+      }
+    },
+    "2026-03": {
+      "quantidade": 7,
+      "total_credito": 8480.30,
+      "total_debito": 11314.21,
+      "saldo": -2833.91,
+      "media_por_transacao": 2827.79,
+      "maior_transacao": {
+        "id": 13,
+        "cliente_id": "C002",
+        "data": "2026-03-11",
+        "tipo": "debito",
+        "valor": 10000.01
+      },
+      "menor_transacao": {
+        "id": 15,
+        "cliente_id": "C003",
+        "data": "2026-03-22",
+        "tipo": "debito",
+        "valor": 64.20
+      }
+    }
+  },
+  "transacoes_suspeitas": [
+    {
+      "id": 3,
+      "cliente_id": "C003",
+      "data": "2026-01-12",
+      "valor": 15000.00
+    },
+    {
+      "id": 9,
+      "cliente_id": "C006",
+      "data": "2026-02-18",
+      "valor": 12500.50
+    },
+    {
+      "id": 13,
+      "cliente_id": "C002",
+      "data": "2026-03-11",
+      "valor": 10000.01
+    }
+  ],
+  "registros_rejeitados": [
+    {
+      "linha": 4,
+      "id_informado": "",
+      "motivos": [
+        "id ausente"
+      ]
+    },
+    {
+      "linha": 6,
+      "id_informado": "ABC",
+      "motivos": [
+        "id não é inteiro: 'ABC'"
+      ]
+    },
+    {
+      "linha": 8,
+      "id_informado": "17",
+      "motivos": [
+        "cliente_id vazio"
+      ]
+    },
+    {
+      "linha": 11,
+      "id_informado": "18",
+      "motivos": [
+        "data fora do formato AAAA-MM-DD: '15/02/2026'"
+      ]
+    },
+    {
+      "linha": 13,
+      "id_informado": "19",
+      "motivos": [
+        "data inexistente: '2026-02-30'"
+      ]
+    },
+    {
+      "linha": 15,
+      "id_informado": "20",
+      "motivos": [
+        "tipo inválido: 'transferencia' (use 'credito' ou 'debito')"
+      ]
+    },
+    {
+      "linha": 19,
+      "id_informado": "21",
+      "motivos": [
+        "valor não numérico: 'mil reais'"
+      ]
+    },
+    {
+      "linha": 21,
+      "id_informado": "22",
+      "motivos": [
+        "valor deve ser maior que zero: '0'"
+      ]
+    },
+    {
+      "linha": 23,
+      "id_informado": "23",
+      "motivos": [
+        "valor deve ser maior que zero: '-150.00'"
+      ]
+    },
+    {
+      "linha": 25,
+      "id_informado": "24",
+      "motivos": [
+        "valor não finito: 'NaN'"
+      ]
+    }
+  ],
+  "ids_duplicados": [
+    {
+      "id": 16,
+      "linhas": [
+        27,
+        28
+      ]
+    }
+  ]
+}

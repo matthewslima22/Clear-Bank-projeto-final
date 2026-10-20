@@ -1,0 +1,28 @@
+id,data,cliente_id,tipo,valor,descricao,categoria
+1,2026-01-05,C001,credito,3500.00,Salário janeiro,salario
+2,2026-01-08,C002,debito,120.50,Supermercado,alimentacao
+,2026-01-15,C001,debito,100.00,Registro sem ID,teste
+3,2026-01-12,C003,credito,15000.00,Venda de veículo,patrimonio
+ABC,2026-01-16,C002,credito,200.00,ID não numérico,teste
+4,2026-01-20,C001,debito,850.00,Aluguel,moradia
+17,2026-01-17,   ,debito,300.00,Cliente em branco,teste
+5,2026-01-28,C004,debito,45.90,,
+6,2026-02-02,C002,credito,4200.00,Salário fevereiro,salario
+18,15/02/2026,C003,credito,400.00,Data no formato brasileiro,teste
+7,2026-02-10,C005,debito,10000.00,Entrada de imóvel,patrimonio
+19,2026-02-30,C004,debito,500.00,Data inexistente,teste
+8,2026-02-14,C003,debito,230.75,Restaurante,alimentacao
+20,2026-02-20,C005,transferencia,600.00,Tipo inválido,teste
+9,2026-02-18,C006,credito,12500.50,Resgate de investimento,investimentos
+10,2026-02-25,C004,debito,99.99,Assinatura de streaming,lazer
+11,2026-03-01,C001,credito,3500.00,Salário março,salario
+21,2026-03-05,C006,credito,mil reais,Valor por extenso,teste
+12,2026-03-07,C005,debito,1250.00,Parcela de financiamento,financiamento
+22,2026-03-06,C001,debito,0,Valor zero,teste
+13,2026-03-11,C002,debito,10000.01,Compra de equipamentos,tecnologia
+23,2026-03-08,C002,debito,-150.00,Valor negativo,teste
+14,2026-03-15,C006,credito,780.30,Reembolso,outros
+24,2026-03-09,C003,credito,NaN,Valor não finito,teste
+15,2026-03-22,C003,debito,64.20,Farmácia,saude
+16,2026-03-30,C004,credito,2100.00,Freelance,servicos
+16,2026-03-30,C004,credito,2100.00,Freelance,servicos
